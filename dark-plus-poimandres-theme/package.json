@@ -1,0 +1,26 @@
+{
+  "name": "poimandres-dark-enhanced",
+  "displayName": "Poimandres Dark Enhanced",
+  "description": "An enhanced Dark+ theme infused with Poimandres colors",
+  "version": "1.0.0",
+  "publisher": "new-marty",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/new-marty/vscode-themes.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Poimandres Dark Enhanced",
+        "uiTheme": "vs-dark",
+        "path": "./dark-plus-poimandres-color-theme.json"
+      }
+    ]
+  }
+}
