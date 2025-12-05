@@ -1,5 +1,5 @@
 {
-  "name": "enhanced poimandres dark theme",
+  "name": "Poimandres Dark Enhanced",
   "type": "dark",
   "colors": {
     "activityBar.background": "#1b1e28",
@@ -285,7 +285,7 @@
     "merge.incomingContentBackground": "#89ddff33",
     "merge.incomingHeaderBackground": "#89ddff80",
     "minimap.errorHighlight": "#d0679d",
-    "minimap.findMatchHighlight": "#ADD7FF",
+    "minimap.findMatchHighlight": "#ADD7FF60",
     "minimap.selectionHighlight": "#e4f0fb40",
     "minimap.warningHighlight": "#fffac2",
     "minimapGutter.addedBackground": "#5fb3a180",
@@ -419,7 +419,7 @@
     "testing.iconQueued": "#fffac2",
     "testing.iconSkipped": "#7390AA",
     "testing.iconUnset": "#7390AA",
-    "testing.message.error.decorationForeground": "#d0679d",
+    "testing.message.error.badgeBackground": "#d0679d",
     "testing.message.error.lineBackground": "#d0679d33",
     "testing.message.info.decorationForeground": "#ADD7FF",
     "testing.message.info.lineBackground": "#89ddff33",
@@ -497,7 +497,8 @@
       "scope": [
         "variable - meta.import",
         "constant.other.placeholder",
-        "meta.object-literal.key-meta.object.member"
+        "meta.object-literal.key",
+        "meta.object.member"
       ],
       "settings": {
         "foreground": "#e4f0fb"
@@ -627,7 +628,7 @@
       }
     },
     {
-      "scope": ["keyword-meta.export"],
+      "scope": ["meta.export keyword"],
       "settings": {
         "foreground": "#ADD7FF"
       }
