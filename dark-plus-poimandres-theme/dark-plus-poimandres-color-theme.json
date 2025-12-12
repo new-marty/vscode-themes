@@ -486,8 +486,7 @@
     {
       "scope": [
         "entity.name.function.method",
-        "string.unquoted",
-        "meta.object.member"
+        "string.unquoted"
       ],
       "settings": {
         "foreground": "#ADD7FF"
@@ -575,7 +574,7 @@
     {
       "scope": ["constant.other.color"],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#e4f0fb"
       }
     },
     {
@@ -675,7 +674,7 @@
     },
     {
       "name": "Function Call",
-      "scope": "variable.function, source meta.function-call entity.name.function, source meta.function-call entity.name.function, source meta.method-call entity.name.function, meta.class meta.group.braces.curly meta.function-call variable.function, meta.class meta.field.declaration meta.function-call entity.name.function, variable.function.constructor, meta.block meta.var.expr meta.function-call entity.name.function, support.function.console, meta.function-call support.function, meta.property.class variable.other.class, punctuation.definition.entity.css",
+      "scope": "variable.function, source meta.function-call entity.name.function, source meta.function-call entity.name.function, source meta.method-call entity.name.function, meta.class meta.group.braces.curly meta.function-call variable.function, meta.class meta.field.declaration meta.function-call entity.name.function, meta.block meta.var.expr meta.function-call entity.name.function, support.function.console, meta.function-call support.function, meta.property.class variable.other.class, punctuation.definition.entity.css",
       "settings": {
         "foreground": "#5DE4c7"
       }
@@ -702,7 +701,6 @@
     {
       "scope": [
         "constant.numeric",
-        "support.constant",
         "constant.character",
         "constant.escape",
         "keyword.other.unit",
@@ -1071,7 +1069,7 @@
     {
       "scope": ["string.other.link.description.title.markdown"],
       "settings": {
-        "foreground": "#ADD7FF"
+        "foreground": "#5DE4c7"
       }
     },
     {
@@ -1089,7 +1087,7 @@
     {
       "scope": ["markup.raw.block.fenced.markdown"],
       "settings": {
-        "foreground": "#50647750"
+        "foreground": "#91B4D5"
       }
     },
     {
@@ -1220,7 +1218,7 @@
         "meta.image.inline.markdown string.other.link.description.title.markdown"
       ],
       "settings": {
-        "foreground": "#ADD7FF",
+        "foreground": "#5DE4c7",
         "fontStyle": ""
       }
     },
